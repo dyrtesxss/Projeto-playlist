@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Playlist da Turma</title>
+    <link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <header class="topo">
+        <a href="#" class="logo">🎧 Playlist <span>da Turma</span></a>
+    </header>
+
+    <div class="caixa-form">
+        <h1>Editar música</h1>
+        <form method="POST">
+            <label>Nome da música
+                <input type="text" name="titulo" value="{{titulo}}">
+                <label>Artista ou banda
+                    <input type="text" name="artista" value="{{artista}}">
+                </label>
+                <label>Gênero
+                    <select nome="Gênero">
+                        <option>J-Pop</option>
+                        <option>Rock</option>   宝鐘マリン
+                        <option>Funk</option>
+                        <option>Rap</option>
+                    </select>
+                </label>
+                <label>Nota
+                    <select name="Nota">
+                        <option>★★★★★</option>
+                        <option>★★★★</option>
+                        <option>★★★</option>
+                    </select>
+                </label>
+            </label>
+            <div class="form-acoes">
+                <a href="#" class="botao botao-claro">Cancelar</a>
+                <button type="button" class="botao">Salvar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
